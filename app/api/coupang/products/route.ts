@@ -18,7 +18,7 @@ export async function GET(request: Request) {
   try {
     if (view === "category" && !keyword.trim()) {
       if (isCurrentDealFilter(categoryId)) {
-        const currentDeals = getCurrentDeals(categoryId);
+        const currentDeals = await getCurrentDeals(categoryId);
 
         return NextResponse.json({
           products: currentDeals.products,
@@ -29,7 +29,7 @@ export async function GET(request: Request) {
       }
 
       if (isGoldboxFilter(categoryId)) {
-        const scrapedGoldbox = getScrapedGoldboxProducts();
+        const scrapedGoldbox = await getScrapedGoldboxProducts();
 
         return NextResponse.json({
           products: scrapedGoldbox.products,
@@ -40,7 +40,7 @@ export async function GET(request: Request) {
       }
 
       if (isSellerSpecialFilter(categoryId)) {
-        const sellerSpecial = getScrapedSellerSpecialProducts(categoryId);
+        const sellerSpecial = await getScrapedSellerSpecialProducts(categoryId);
 
         return NextResponse.json({
           products: sellerSpecial.products,
