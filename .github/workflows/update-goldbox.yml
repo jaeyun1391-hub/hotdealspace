@@ -18,6 +18,7 @@ jobs:
       COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
       COUPANG_SUB_ID: ${{ secrets.COUPANG_SUB_ID }}
       COUPANG_SCRAPE_HEADLESS: "false"
+      CHROME_PATH: "/usr/bin/google-chrome-stable"
 
     steps:
       - name: Checkout
@@ -34,6 +35,12 @@ jobs:
 
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
+
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+          google-chrome-stable --version
 
       - name: Check required secrets
         run: |

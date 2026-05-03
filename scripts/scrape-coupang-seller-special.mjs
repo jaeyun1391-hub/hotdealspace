@@ -124,11 +124,16 @@ async function scrapeSellerSpecial() {
     ...(executablePath ? { executablePath } : {}),
     locale: "ko-KR",
     viewport: { width: 1440, height: 1000 },
-    args: ["--disable-blink-features=AutomationControlled"],
+    userAgent:
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+    args: ["--disable-blink-features=AutomationControlled", "--no-sandbox", "--disable-dev-shm-usage"],
   });
 
   try {
     const page = context.pages()[0] ?? (await context.newPage());
+    await page.setExtraHTTPHeaders({
+      "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+    });
     await page.goto(SELLER_SPECIAL_URL, { waitUntil: "domcontentloaded", timeout: 40_000 });
     await page.waitForTimeout(5_000);
 
