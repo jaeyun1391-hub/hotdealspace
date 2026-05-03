@@ -92,7 +92,7 @@ function parseProductText(text) {
   const percentMatches = [...compactText.matchAll(/(\d+)%/g)];
   const priceMatches = [...compactText.matchAll(/([\d,]+)원/g)];
   const firstPriceIndex = priceMatches[0]?.index ?? compactText.length;
-  const discountMatch = percentMatches.find((match) => (match.index ?? compactText.length) < firstPriceIndex);
+  const discountMatch = percentMatches.filter((match) => (match.index ?? compactText.length) < firstPriceIndex).at(-1);
   const soldRate = Number(compactText.match(/(\d+)%\s*판매됨/)?.[1] ?? "") || undefined;
   const discountRate = Number(discountMatch?.[1] ?? "") || undefined;
   const salePrice = parsePrice(priceMatches[0]?.[1]);

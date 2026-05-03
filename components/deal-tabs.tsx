@@ -27,19 +27,11 @@ type ApiResponse = {
 
 const categories = [
   { id: "goldbox", name: "전체 특가" },
-  { id: "1012", name: "식품" },
-  { id: "1010", name: "뷰티" },
-  { id: "1013", name: "주방용품" },
-  { id: "1014", name: "생활용품" },
-  { id: "1016", name: "가전디지털" },
-  { id: "1017", name: "스포츠/레저" },
-  { id: "1015", name: "홈인테리어" },
-  { id: "1011", name: "출산/유아동" },
-  { id: "1018", name: "자동차용품" },
-  { id: "1020", name: "완구/취미" },
-  { id: "1021", name: "문구/오피스" },
-  { id: "1024", name: "헬스/건강식품" },
-  { id: "1019", name: "도서/음반/DVD" },
+  { id: "under20000", name: "2만원 이하" },
+  { id: "under10000", name: "만원 이하" },
+  { id: "discount60", name: "60% 이상" },
+  { id: "discount50", name: "50% 이상" },
+  { id: "popular", name: "인기 특가" },
 ];
 
 const tabs = [

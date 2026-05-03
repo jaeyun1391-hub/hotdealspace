@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 import { fetchCoupangProducts, sampleProducts } from "@/lib/coupang";
-import { getScrapedGoldboxProducts } from "@/lib/scraped-goldbox";
+import { getScrapedGoldboxProducts, isGoldboxFilter } from "@/lib/scraped-goldbox";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -14,17 +14,15 @@ export async function GET(request: Request) {
   const limit = Math.min(requestedLimit, 100);
 
   try {
-    if (view === "category" && categoryId === "goldbox" && !keyword.trim()) {
-      const scrapedGoldbox = getScrapedGoldboxProducts();
+    if (view === "category" && isGoldboxFilter(categoryId) && !keyword.trim()) {
+      const scrapedGoldbox = getScrapedGoldboxProducts(categoryId);
 
-      if (scrapedGoldbox.products.length > 0) {
-        return NextResponse.json({
-          products: scrapedGoldbox.products,
-          source: "scraped",
-          scrapedAt: scrapedGoldbox.scrapedAt,
-          message: "",
-        });
-      }
+      return NextResponse.json({
+        products: scrapedGoldbox.products,
+        source: "scraped",
+        scrapedAt: scrapedGoldbox.scrapedAt,
+        message: "",
+      });
     }
 
     const data = await fetchCoupangProducts({

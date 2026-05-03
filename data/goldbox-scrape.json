@@ -1,6 +1,6 @@
 {
   "source": "https://pages.coupang.com/p/121237?sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut",
-  "scrapedAt": "2026-05-03T10:27:42.368Z",
+  "scrapedAt": "2026-05-03T10:34:13.008Z",
   "count": 86,
   "products": [
     {
@@ -11,7 +11,7 @@
       "discountRate": 12,
       "salePrice": 18900,
       "originalPrice": 21700,
-      "soldRate": 31,
+      "soldRate": 32,
       "affiliateUrl": "https://www.coupang.com/vp/products/8938973449?itemId=28369246354&vendorItemId=71805128607&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
@@ -22,19 +22,8 @@
       "discountRate": 46,
       "salePrice": 17800,
       "originalPrice": 33400,
-      "soldRate": 61,
+      "soldRate": 68,
       "affiliateUrl": "https://www.coupang.com/vp/products/4970215252?itemId=6597007096&vendorItemId=73890947440&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "6948128046",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4032934993143796-f7188660-1ee2-491e-9d8b-229b242ec674.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/6948128046?itemId=17717511076&vendorItemId=84882352066&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "아케이 리빙 후드득 때지우개, 1개입, 2개",
-      "discountRate": 68,
-      "salePrice": 10090,
-      "originalPrice": 31800,
-      "soldRate": 89,
-      "affiliateUrl": "https://www.coupang.com/vp/products/6948128046?itemId=17717511076&vendorItemId=84882352066&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8087867523",
@@ -44,8 +33,19 @@
       "discountRate": 5,
       "salePrice": 137200,
       "originalPrice": 144430,
-      "soldRate": 89,
+      "soldRate": 91,
       "affiliateUrl": "https://www.coupang.com/vp/products/8087867523?itemId=17596000516&vendorItemId=84762362345&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "6948128046",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/4032934993143796-f7188660-1ee2-491e-9d8b-229b242ec674.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/6948128046?itemId=17717511076&vendorItemId=84882352066&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "아케이 리빙 후드득 때지우개, 1개입, 2개",
+      "discountRate": 68,
+      "salePrice": 10090,
+      "originalPrice": 31800,
+      "soldRate": 90,
+      "affiliateUrl": "https://www.coupang.com/vp/products/6948128046?itemId=17717511076&vendorItemId=84882352066&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "1334556149",
@@ -55,7 +55,7 @@
       "discountRate": 14,
       "salePrice": 13860,
       "originalPrice": 16300,
-      "soldRate": 84,
+      "soldRate": 86,
       "affiliateUrl": "https://www.coupang.com/vp/products/1334556149?itemId=2360088029&vendorItemId=70356480525&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
@@ -82,14 +82,25 @@
     },
     {
       "productId": "7043431201",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1148225275956800-3bb90821-71e9-48db-b6af-6c28a681065b.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/7043431201?itemId=20877105346&vendorItemId=4007615864&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/3377876199363457-9c760f66-0cfa-494b-b79d-20673d2614d3.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/7043431201?itemId=19813668196&vendorItemId=4043015113&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
       "productName": "스칸디앤홈 먼지없는 쉐브론 사이잘룩 러그 워셔블 거실 카페트",
       "discountRate": 4,
       "salePrice": 34400,
       "originalPrice": 35900,
-      "soldRate": 98,
-      "affiliateUrl": "https://www.coupang.com/vp/products/7043431201?itemId=20877105346&vendorItemId=4007615864&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+      "soldRate": 70,
+      "affiliateUrl": "https://www.coupang.com/vp/products/7043431201?itemId=19813668196&vendorItemId=4043015113&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "9335378419",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/01/07/17/7/d5070f2f-e4e8-4489-8d8b-20164fb70b81.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/9335378419?itemId=27519603209&vendorItemId=94484388319&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "이니스프리 화산송이 바하 모공 클렌징폼 플러스, 200g, 1개",
+      "discountRate": 46,
+      "salePrice": 8640,
+      "originalPrice": 16000,
+      "soldRate": 80,
+      "affiliateUrl": "https://www.coupang.com/vp/products/9335378419?itemId=27519603209&vendorItemId=94484388319&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8453354944",
@@ -97,8 +108,17 @@
       "productUrl": "https://www.coupang.com/vp/products/8453354944?itemId=10384536777&vendorItemId=77666604015&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
       "productName": "완도 명품 자른미역, 1개, 500g",
       "salePrice": 13470,
-      "soldRate": 76,
+      "soldRate": 78,
       "affiliateUrl": "https://www.coupang.com/vp/products/8453354944?itemId=10384536777&vendorItemId=77666604015&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "5221721596",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/413910405199822-2de5fc12-5a00-49c3-af64-5c636d5f86b6.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/5221721596?itemId=20914116725&vendorItemId=87981035302&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "필립스 SkinIQ 5000 시리즈 전기면도기, S5887/29, 카본 그레이",
+      "salePrice": 129000,
+      "soldRate": 77,
+      "affiliateUrl": "https://www.coupang.com/vp/products/5221721596?itemId=20914116725&vendorItemId=87981035302&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "7897470907",
@@ -112,17 +132,6 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/7897470907?itemId=21690132674&vendorItemId=88739968265&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "9335378419",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/01/07/17/7/d5070f2f-e4e8-4489-8d8b-20164fb70b81.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/9335378419?itemId=27519603209&vendorItemId=94484388319&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "이니스프리 화산송이 바하 모공 클렌징폼 플러스, 200g, 1개",
-      "discountRate": 46,
-      "salePrice": 8640,
-      "originalPrice": 16000,
-      "soldRate": 79,
-      "affiliateUrl": "https://www.coupang.com/vp/products/9335378419?itemId=27519603209&vendorItemId=94484388319&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
       "productId": "228967",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/8079/26339090cdab5010ee88be9ea92d6d00a154670b741360320dcc5b9fefe2.png",
       "productUrl": "https://www.coupang.com/vp/products/228967?itemId=27239882009&vendorItemId=3087753415&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
@@ -130,17 +139,8 @@
       "discountRate": 24,
       "salePrice": 14780,
       "originalPrice": 19530,
-      "soldRate": 84,
+      "soldRate": 86,
       "affiliateUrl": "https://www.coupang.com/vp/products/228967?itemId=27239882009&vendorItemId=3087753415&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "5221721596",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/413910405199822-2de5fc12-5a00-49c3-af64-5c636d5f86b6.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/5221721596?itemId=20914116725&vendorItemId=87981035302&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "필립스 SkinIQ 5000 시리즈 전기면도기, S5887/29, 카본 그레이",
-      "salePrice": 129000,
-      "soldRate": 76,
-      "affiliateUrl": "https://www.coupang.com/vp/products/5221721596?itemId=20914116725&vendorItemId=87981035302&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8687771994",
@@ -150,7 +150,7 @@
       "discountRate": 7,
       "salePrice": 26890,
       "originalPrice": 29180,
-      "soldRate": 76,
+      "soldRate": 77,
       "affiliateUrl": "https://www.coupang.com/vp/products/8687771994?itemId=25222807980&vendorItemId=92219139301&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
@@ -161,7 +161,7 @@
       "discountRate": 29,
       "salePrice": 17000,
       "originalPrice": 24000,
-      "soldRate": 95,
+      "soldRate": 96,
       "affiliateUrl": "https://www.coupang.com/vp/products/1352914251?itemId=13330538925&vendorItemId=70184244029&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
@@ -172,7 +172,7 @@
       "discountRate": 23,
       "salePrice": 77540,
       "originalPrice": 100710,
-      "soldRate": 69,
+      "soldRate": 70,
       "affiliateUrl": "https://www.coupang.com/vp/products/6573832879?itemId=18711626712&vendorItemId=3180840758&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
@@ -185,15 +185,6 @@
       "originalPrice": 89000,
       "soldRate": 82,
       "affiliateUrl": "https://www.coupang.com/vp/products/9264942919?itemId=27416218067&vendorItemId=94381785306&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "10000010017346",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/travel_reactor/travelSeller/common/A00197835/a26f6b59-40ec-4362-b26b-8e019183d9d8.jpg",
-      "productUrl": "https://www.coupang.com/np/products/10000010017346?vendorItemId=70000287104358&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut",
-      "productName": "[경주] ★골드박스★경주월드 종일권 특가 찬스!",
-      "salePrice": 39000,
-      "soldRate": 64,
-      "affiliateUrl": "https://www.coupang.com/np/products/10000010017346?vendorItemId=70000287104358&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut"
     },
     {
       "productId": "8637540540",
@@ -212,28 +203,8 @@
       "productUrl": "https://www.coupang.com/vp/products/88361?itemId=19608288&vendorItemId=75601836968&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
       "productName": "롯데제과 빠다코코낫 오리지날, 600g, 1개",
       "salePrice": 5870,
-      "soldRate": 65,
+      "soldRate": 66,
       "affiliateUrl": "https://www.coupang.com/vp/products/88361?itemId=19608288&vendorItemId=75601836968&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "7869554357",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/357720465227725-13ca924d-594d-4783-9602-2bb0730c31ca.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/7869554357?itemId=24067286130&vendorItemId=86493937835&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "동원샘물 무라벨, 500ml, 60개",
-      "salePrice": 13260,
-      "soldRate": 65,
-      "affiliateUrl": "https://www.coupang.com/vp/products/7869554357?itemId=24067286130&vendorItemId=86493937835&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "8857408345",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/a3cd/4a227e9fcfb8a32785587f5d8f9957a3bad3240379cc4100ff455550fb43.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/8857408345?itemId=25826337279&vendorItemId=92813144683&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "5매입 **여성 순면** 하이웨이스트 팬티 - 착용감 최고! 일상 속 섹시한 란제리 속옷",
-      "discountRate": 38,
-      "salePrice": 16480,
-      "originalPrice": 26800,
-      "soldRate": 54,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8857408345?itemId=25826337279&vendorItemId=92813144683&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8955319204",
@@ -247,13 +218,22 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/8955319204?itemId=26198885830&vendorItemId=93218150761&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "5472262631",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/211936255900378-f0e86fa9-aeb4-4344-a300-3fbe824e6d19.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/5472262631?itemId=8412539346&vendorItemId=75700206363&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "해피콜 몬드 IH 궁중팬, 28cm, 1개",
-      "salePrice": 39490,
-      "soldRate": 39,
-      "affiliateUrl": "https://www.coupang.com/vp/products/5472262631?itemId=8412539346&vendorItemId=75700206363&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+      "productId": "7869554357",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/357720465227725-13ca924d-594d-4783-9602-2bb0730c31ca.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/7869554357?itemId=24067286130&vendorItemId=86493937835&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "동원샘물 무라벨, 500ml, 60개",
+      "salePrice": 13260,
+      "soldRate": 65,
+      "affiliateUrl": "https://www.coupang.com/vp/products/7869554357?itemId=24067286130&vendorItemId=86493937835&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "10000010017346",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/travel_reactor/travelSeller/common/A00197835/a26f6b59-40ec-4362-b26b-8e019183d9d8.jpg",
+      "productUrl": "https://www.coupang.com/np/products/10000010017346?vendorItemId=70000287104358&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut",
+      "productName": "[경주] ★골드박스★경주월드 종일권 특가 찬스!",
+      "salePrice": 39000,
+      "soldRate": 64,
+      "affiliateUrl": "https://www.coupang.com/np/products/10000010017346?vendorItemId=70000287104358&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut"
     },
     {
       "productId": "8512149596",
@@ -261,8 +241,28 @@
       "productUrl": "https://www.coupang.com/vp/products/8512149596?itemId=24640131941&vendorItemId=91651000301&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
       "productName": "탐사 강력 겔 탈취제 코튼향, 230g, 2개",
       "salePrice": 12490,
-      "soldRate": 63,
+      "soldRate": 64,
       "affiliateUrl": "https://www.coupang.com/vp/products/8512149596?itemId=24640131941&vendorItemId=91651000301&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "5472262631",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/211936255900378-f0e86fa9-aeb4-4344-a300-3fbe824e6d19.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/5472262631?itemId=8412539346&vendorItemId=75700206363&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "해피콜 몬드 IH 궁중팬, 28cm, 1개",
+      "salePrice": 39490,
+      "soldRate": 40,
+      "affiliateUrl": "https://www.coupang.com/vp/products/5472262631?itemId=8412539346&vendorItemId=75700206363&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "8857408345",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/a3cd/4a227e9fcfb8a32785587f5d8f9957a3bad3240379cc4100ff455550fb43.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/8857408345?itemId=25826337287&vendorItemId=92813144722&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "5매입 **여성 순면** 하이웨이스트 팬티 - 착용감 최고! 일상 속 섹시한 란제리 속옷",
+      "discountRate": 38,
+      "salePrice": 16480,
+      "originalPrice": 26800,
+      "soldRate": 73,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8857408345?itemId=25826337287&vendorItemId=92813144722&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8408195879",
@@ -270,8 +270,19 @@
       "productUrl": "https://www.coupang.com/vp/products/8408195879?itemId=24811001491&vendorItemId=92314986306&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
       "productName": "가루비 재료가 맛있는 고구마 과자, 12개",
       "salePrice": 22740,
-      "soldRate": 61,
+      "soldRate": 62,
       "affiliateUrl": "https://www.coupang.com/vp/products/8408195879?itemId=24811001491&vendorItemId=92314986306&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "7055135360",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/12/29/16/8/7ebf7a94-49ac-4aba-be07-930131012924.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/7055135360?itemId=12753495497&vendorItemId=80019778827&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "요리락 양념 소 LA 갈비, 800g, 1개",
+      "discountRate": 37,
+      "salePrice": 24990,
+      "originalPrice": 39900,
+      "soldRate": 61,
+      "affiliateUrl": "https://www.coupang.com/vp/products/7055135360?itemId=12753495497&vendorItemId=80019778827&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8336515024",
@@ -285,23 +296,12 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/8336515024?itemId=24772720548&vendorItemId=3023313097&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "7055135360",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2021/12/29/16/8/7ebf7a94-49ac-4aba-be07-930131012924.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/7055135360?itemId=12753495497&vendorItemId=80019778827&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "요리락 양념 소 LA 갈비, 800g, 1개",
-      "discountRate": 37,
-      "salePrice": 24990,
-      "originalPrice": 39900,
-      "soldRate": 60,
-      "affiliateUrl": "https://www.coupang.com/vp/products/7055135360?itemId=12753495497&vendorItemId=80019778827&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
       "productId": "9058318964",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/2500/b52a181ccb0022f078caa7cf1fc8f297ea57620523821bc39394b57e29ef.jpg",
       "productUrl": "https://www.coupang.com/vp/products/9058318964?itemId=26592729030&vendorItemId=87549112936&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
       "productName": "서동 맛에 반했닭 저당 닭가슴살 5종 혼합 (떡볶이8 + 양념치킨8 + 통구이마늘8 + 유린기8 + 왕갈비8), 100g, 40개",
       "salePrice": 56590,
-      "soldRate": 58,
+      "soldRate": 59,
       "affiliateUrl": "https://www.coupang.com/vp/products/9058318964?itemId=26592729030&vendorItemId=87549112936&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
@@ -323,8 +323,19 @@
       "discountRate": 23,
       "salePrice": 5480,
       "originalPrice": 7180,
-      "soldRate": 55,
+      "soldRate": 56,
       "affiliateUrl": "https://www.coupang.com/vp/products/9422409524?itemId=28005886594&vendorItemId=94963327020&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "7249785624",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/02/15/11/9/d9a85f43-e8f9-4ecd-86a6-9e569a2759e9.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/7249785624?itemId=18438829528&vendorItemId=88849818382&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "HERA 헤라 하이드로 리플렉팅 2종 세트, 1세트",
+      "discountRate": 20,
+      "salePrice": 90400,
+      "originalPrice": 113000,
+      "soldRate": 56,
+      "affiliateUrl": "https://www.coupang.com/vp/products/7249785624?itemId=18438829528&vendorItemId=88849818382&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8416837413",
@@ -345,19 +356,8 @@
       "discountRate": 50,
       "salePrice": 59420,
       "originalPrice": 119000,
-      "soldRate": 72,
+      "soldRate": 73,
       "affiliateUrl": "https://www.coupang.com/vp/products/7464904073?itemId=14434597577&vendorItemId=81678298272&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "7249785624",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/02/15/11/9/d9a85f43-e8f9-4ecd-86a6-9e569a2759e9.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/7249785624?itemId=18438829528&vendorItemId=88849818382&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "HERA 헤라 하이드로 리플렉팅 2종 세트, 1세트",
-      "discountRate": 20,
-      "salePrice": 90400,
-      "originalPrice": 113000,
-      "soldRate": 56,
-      "affiliateUrl": "https://www.coupang.com/vp/products/7249785624?itemId=18438829528&vendorItemId=88849818382&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8165713116",
@@ -367,7 +367,7 @@
       "discountRate": 40,
       "salePrice": 12900,
       "originalPrice": 21800,
-      "soldRate": 53,
+      "soldRate": 54,
       "affiliateUrl": "https://www.coupang.com/vp/products/8165713116?itemId=22203096903&vendorItemId=89249238105&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
@@ -393,6 +393,17 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/7271386589?itemId=20546430939&vendorItemId=4987386426&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
+      "productId": "6195344013",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/87362996435625-04e3bc87-9f58-473a-bda3-45baccfeb203.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/6195344013?itemId=12258984357&vendorItemId=4389760680&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "밀크바오밥 샴푸 화이트머스크향, 1L, 1개",
+      "discountRate": 18,
+      "salePrice": 12900,
+      "originalPrice": 15900,
+      "soldRate": 51,
+      "affiliateUrl": "https://www.coupang.com/vp/products/6195344013?itemId=12258984357&vendorItemId=4389760680&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
       "productId": "9497035683",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1004865274410958-ad73aecd-588c-4820-88bc-e1ec97f0718d.png",
       "productUrl": "https://www.coupang.com/vp/products/9497035683?itemId=28290059921&vendorItemId=95242964106&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
@@ -404,17 +415,6 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/9497035683?itemId=28290059921&vendorItemId=95242964106&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "6195344013",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/87362996435625-04e3bc87-9f58-473a-bda3-45baccfeb203.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/6195344013?itemId=12258984357&vendorItemId=4389760680&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "밀크바오밥 샴푸 화이트머스크향, 1L, 1개",
-      "discountRate": 18,
-      "salePrice": 12900,
-      "originalPrice": 15900,
-      "soldRate": 50,
-      "affiliateUrl": "https://www.coupang.com/vp/products/6195344013?itemId=12258984357&vendorItemId=4389760680&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
       "productId": "6987907142",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/114987458150827-8083bb1e-fe8f-4872-9211-05523085061e.jpg",
       "productUrl": "https://www.coupang.com/vp/products/6987907142?itemId=17093078748&vendorItemId=84216258869&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
@@ -422,6 +422,17 @@
       "salePrice": 12860,
       "soldRate": 49,
       "affiliateUrl": "https://www.coupang.com/vp/products/6987907142?itemId=17093078748&vendorItemId=84216258869&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "8491113221",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/3021432894327404-386c51f1-ede6-45cd-a81b-bce5b1a435b7.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/8491113221?itemId=528333769&vendorItemId=4374500777&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "아임리빙 중량업 블랙라인 호텔용 마이크로필에버 베개솜 지퍼형, 화이트, 2개",
+      "discountRate": 21,
+      "salePrice": 22490,
+      "originalPrice": 28800,
+      "soldRate": 74,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8491113221?itemId=528333769&vendorItemId=4374500777&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "6468225331",
@@ -446,28 +457,6 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/2195714466?itemId=3736146180&vendorItemId=71721333308&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "8491113221",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/3021432894327404-386c51f1-ede6-45cd-a81b-bce5b1a435b7.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/8491113221?itemId=528333769&vendorItemId=4374500777&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "아임리빙 중량업 블랙라인 호텔용 마이크로필에버 베개솜 지퍼형, 화이트, 2개",
-      "discountRate": 21,
-      "salePrice": 22490,
-      "originalPrice": 28800,
-      "soldRate": 73,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8491113221?itemId=528333769&vendorItemId=4374500777&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "8410653183",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/338753530593875-655c7d11-306d-4cbb-bb76-5a0815b632af.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/8410653183?itemId=24318273837&vendorItemId=91334053184&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "요미몬 플레이돌:2 003편 다양한 콘텐츠로 365일 새로운 이야기와 노래를 들려주세요!, 오디오북",
-      "discountRate": 37,
-      "salePrice": 119000,
-      "originalPrice": 189000,
-      "soldRate": 47,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8410653183?itemId=24318273837&vendorItemId=91334053184&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
       "productId": "111308315",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/88929008953417-f9b0591a-0a06-480a-a909-f13734a075a4.JPG",
       "productUrl": "https://www.coupang.com/vp/products/111308315?itemId=335289299&vendorItemId=3822604790&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
@@ -475,7 +464,7 @@
       "discountRate": 15,
       "salePrice": 19410,
       "originalPrice": 22900,
-      "soldRate": 47,
+      "soldRate": 48,
       "affiliateUrl": "https://www.coupang.com/vp/products/111308315?itemId=335289299&vendorItemId=3822604790&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
@@ -490,15 +479,26 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/153097713?itemId=23852653236&vendorItemId=90876019466&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
+      "productId": "8410653183",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/338753530593875-655c7d11-306d-4cbb-bb76-5a0815b632af.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/8410653183?itemId=24318273837&vendorItemId=91334053184&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "요미몬 플레이돌:2 003편 다양한 콘텐츠로 365일 새로운 이야기와 노래를 들려주세요!, 오디오북",
+      "discountRate": 37,
+      "salePrice": 119000,
+      "originalPrice": 189000,
+      "soldRate": 47,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8410653183?itemId=24318273837&vendorItemId=91334053184&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
       "productId": "195564127",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/01/11/2/cae6b69d-c649-4de1-a260-282c988e8cd0.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/195564127?itemId=26491684650&vendorItemId=93466548652&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "아리프 NBR 요가매트 20mm + 운동 가이드 포스터 세트, 페일 민트, 1세트",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/09/01/11/0/f0a08907-68ad-4903-8a2c-2422e44380b8.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/195564127?itemId=26491684647&vendorItemId=93466548658&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "아리프 NBR 요가매트 20mm + 운동 가이드 포스터 세트, 라이트 베이지, 1세트",
       "discountRate": 40,
       "salePrice": 18000,
       "originalPrice": 30500,
-      "soldRate": 96,
-      "affiliateUrl": "https://www.coupang.com/vp/products/195564127?itemId=26491684650&vendorItemId=93466548652&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+      "soldRate": 45,
+      "affiliateUrl": "https://www.coupang.com/vp/products/195564127?itemId=26491684647&vendorItemId=93466548658&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "7677851491",
@@ -512,20 +512,11 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/7677851491?itemId=20092096381&vendorItemId=87020741011&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "10000011390329",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/travel_reactor/travelSeller/common/A00668506/d2e9b091-e46a-4b5e-a06a-299373beabcf.jpg",
-      "productUrl": "https://www.coupang.com/np/products/10000011390329?vendorItemId=70000286993459&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut",
-      "productName": "[대전] ★아쿠아리움 골드박스 한정 입장권 특가★",
-      "salePrice": 27000,
-      "soldRate": 44,
-      "affiliateUrl": "https://www.coupang.com/np/products/10000011390329?vendorItemId=70000286993459&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut"
-    },
-    {
       "productId": "6775809414",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/57923207773517-7a6880c5-189d-4aaf-8192-4e83ae1df2a9.jpg",
       "productUrl": "https://www.coupang.com/vp/products/6775809414?itemId=14490085035&vendorItemId=83128542418&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "슈퍼너츠",
-      "discountRate": 100,
+      "productName": "슈퍼너츠 100% 땅콩버터 크런치, 460g, 1개",
+      "discountRate": 10,
       "salePrice": 14400,
       "originalPrice": 16000,
       "soldRate": 44,
@@ -539,8 +530,28 @@
       "discountRate": 32,
       "salePrice": 22900,
       "originalPrice": 33700,
-      "soldRate": 52,
+      "soldRate": 53,
       "affiliateUrl": "https://www.coupang.com/vp/products/1187283827?itemId=2168172893&vendorItemId=70166309653&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "10000011390329",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/travel_reactor/travelSeller/common/A00668506/d2e9b091-e46a-4b5e-a06a-299373beabcf.jpg",
+      "productUrl": "https://www.coupang.com/np/products/10000011390329?vendorItemId=70000286993459&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut",
+      "productName": "[대전] ★아쿠아리움 골드박스 한정 입장권 특가★",
+      "salePrice": 27000,
+      "soldRate": 44,
+      "affiliateUrl": "https://www.coupang.com/np/products/10000011390329?vendorItemId=70000286993459&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut"
+    },
+    {
+      "productId": "8997954886",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/07/03/11/3/52b52aa1-a792-4f5a-aa44-7a55beea00eb.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/8997954886?itemId=25946550087&vendorItemId=92929699842&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "연세두유 무가당 국산약콩 99%, 190ml, 16개",
+      "discountRate": 23,
+      "salePrice": 13680,
+      "originalPrice": 17900,
+      "soldRate": 44,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8997954886?itemId=25946550087&vendorItemId=92929699842&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "6366527830",
@@ -550,19 +561,8 @@
       "discountRate": 11,
       "salePrice": 17590,
       "originalPrice": 19900,
-      "soldRate": 43,
-      "affiliateUrl": "https://www.coupang.com/vp/products/6366527830?itemId=13464632325&vendorItemId=4573569940&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "8997954886",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/07/03/11/3/52b52aa1-a792-4f5a-aa44-7a55beea00eb.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/8997954886?itemId=25946550087&vendorItemId=92929699842&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "연세두유 무가당 국산약콩",
-      "discountRate": 99,
-      "salePrice": 13680,
-      "originalPrice": 17900,
       "soldRate": 44,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8997954886?itemId=25946550087&vendorItemId=92929699842&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+      "affiliateUrl": "https://www.coupang.com/vp/products/6366527830?itemId=13464632325&vendorItemId=4573569940&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8461160534",
@@ -572,19 +572,8 @@
       "discountRate": 22,
       "salePrice": 17700,
       "originalPrice": 22700,
-      "soldRate": 43,
+      "soldRate": 44,
       "affiliateUrl": "https://www.coupang.com/vp/products/8461160534?itemId=24476940653&vendorItemId=91490429218&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "9309701805",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1177509636442893-8f1a645f-76e4-45f1-9f1a-a4bf75097386.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/9309701805?itemId=27584618314&vendorItemId=94548244949&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "네파키즈 마운티어 운동화 NE6SS51",
-      "discountRate": 31,
-      "salePrice": 54000,
-      "originalPrice": 79000,
-      "soldRate": 85,
-      "affiliateUrl": "https://www.coupang.com/vp/products/9309701805?itemId=27584618314&vendorItemId=94548244949&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "6252334375",
@@ -609,15 +598,15 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/5732864713?itemId=23626836611&vendorItemId=90652355481&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "8692762432",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/04/03/10/5/f1908258-c205-400a-832e-a8a1ac16d25b.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/8692762432?itemId=25238653433&vendorItemId=92234754163&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "캐치웰 CX PRO 매직타워 N 무선청소기, 알리숨 화이트, CX PRO N",
-      "discountRate": 44,
-      "salePrice": 279230,
-      "originalPrice": 499000,
-      "soldRate": 40,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8692762432?itemId=25238653433&vendorItemId=92234754163&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+      "productId": "7814755233",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/02/02/17/9/9a4ab40b-a58c-4785-828b-daa62bf8a40d.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/7814755233?itemId=21207598388&vendorItemId=88562636197&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "HERA 헤라 에이지 어웨이 에스테틱 BX 크림, 50ml, 1개",
+      "discountRate": 15,
+      "salePrice": 110500,
+      "originalPrice": 130000,
+      "soldRate": 42,
+      "affiliateUrl": "https://www.coupang.com/vp/products/7814755233?itemId=21207598388&vendorItemId=88562636197&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "7828216228",
@@ -642,6 +631,17 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/2042132?itemId=19999612264&vendorItemId=75512895888&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
+      "productId": "9309701805",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1177509636442893-8f1a645f-76e4-45f1-9f1a-a4bf75097386.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/9309701805?itemId=27584618314&vendorItemId=94548244949&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "네파키즈 마운티어 운동화 NE6SS51",
+      "discountRate": 31,
+      "salePrice": 54000,
+      "originalPrice": 79000,
+      "soldRate": 85,
+      "affiliateUrl": "https://www.coupang.com/vp/products/9309701805?itemId=27584618314&vendorItemId=94548244949&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
       "productId": "7660554607",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/a95d/7f701514bb4ded3eb0e7816dec9fb89f006b8352db0e53bcfcb1c56e6383.jpg",
       "productUrl": "https://www.coupang.com/vp/products/7660554607?itemId=24566083969&vendorItemId=3000140916&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
@@ -651,6 +651,48 @@
       "originalPrice": 8500,
       "soldRate": 40,
       "affiliateUrl": "https://www.coupang.com/vp/products/7660554607?itemId=24566083969&vendorItemId=3000140916&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "8692762432",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/04/03/10/5/f1908258-c205-400a-832e-a8a1ac16d25b.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/8692762432?itemId=25238653433&vendorItemId=92234754163&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "캐치웰 CX PRO 매직타워 N 무선청소기, 알리숨 화이트, CX PRO N",
+      "discountRate": 44,
+      "salePrice": 279230,
+      "originalPrice": 499000,
+      "soldRate": 40,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8692762432?itemId=25238653433&vendorItemId=92234754163&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "1717552921",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/326584173864198-6e1acdda-a7e7-479d-b4bb-ba1c9e6f0e64.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/1717552921?itemId=2923167957&vendorItemId=70911802261&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "프레시지 더큰 햄가득 부대전골 밀키트 2인분, 868g, 1개",
+      "salePrice": 16200,
+      "soldRate": 39,
+      "affiliateUrl": "https://www.coupang.com/vp/products/1717552921?itemId=2923167957&vendorItemId=70911802261&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "6235621800",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/89d2/0559f366542167077d2e3f249075a58bb145b25482461a88d8d5d237e0e3.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/6235621800?itemId=12556226931&vendorItemId=79824529259&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "위드림 산리오캐릭터즈 웹툰그리기패드, 혼합색상, 1개",
+      "discountRate": 14,
+      "salePrice": 32320,
+      "originalPrice": 38000,
+      "soldRate": 39,
+      "affiliateUrl": "https://www.coupang.com/vp/products/6235621800?itemId=12556226931&vendorItemId=79824529259&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "8574506645",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/07f7/e8d9099d762eba35d90c34e8f4252263aad56b85eb73e4df2426a23d94fc.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/8574506645?itemId=8483389965&vendorItemId=75770913139&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "락앤락 튼튼한 빨래건조대, 블랙",
+      "discountRate": 11,
+      "salePrice": 39900,
+      "originalPrice": 45000,
+      "soldRate": 39,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8574506645?itemId=8483389965&vendorItemId=75770913139&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "5335326780",
@@ -664,17 +706,6 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/5335326780?itemId=14551482683&vendorItemId=81926636496&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "8075396096",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/fe59/1f1619e7a9abe02305edfd365caa3f691c4c3dc47ad2e9964fcdf1f28148.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/8075396096?itemId=22746611403&vendorItemId=92603178967&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "트루쿡 IH 세라믹 대형 계란말이팬 실리콘 자이언트 뒤집개 세트 베이지, 1개, 23cm",
-      "discountRate": 45,
-      "salePrice": 43290,
-      "originalPrice": 78900,
-      "soldRate": 37,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8075396096?itemId=22746611403&vendorItemId=92603178967&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
       "productId": "5353444509",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/3b1d/8d18d54ea00422a4886120bd5413c9eb7fd556faf77605c9c3d0231e2470.jpg",
       "productUrl": "https://www.coupang.com/vp/products/5353444509?itemId=7879614222&vendorItemId=75169152340&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
@@ -686,13 +717,15 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/5353444509?itemId=7879614222&vendorItemId=75169152340&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
-      "productId": "1717552921",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/326584173864198-6e1acdda-a7e7-479d-b4bb-ba1c9e6f0e64.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/1717552921?itemId=2923167957&vendorItemId=70911802261&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "프레시지 더큰 햄가득 부대전골 밀키트 2인분, 868g, 1개",
-      "salePrice": 16200,
-      "soldRate": 39,
-      "affiliateUrl": "https://www.coupang.com/vp/products/1717552921?itemId=2923167957&vendorItemId=70911802261&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+      "productId": "8075396096",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/fe59/1f1619e7a9abe02305edfd365caa3f691c4c3dc47ad2e9964fcdf1f28148.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/8075396096?itemId=22746611403&vendorItemId=92603178967&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "트루쿡 IH 세라믹 대형 계란말이팬 실리콘 자이언트 뒤집개 세트 베이지, 1개, 23cm",
+      "discountRate": 45,
+      "salePrice": 43290,
+      "originalPrice": 78900,
+      "soldRate": 38,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8075396096?itemId=22746611403&vendorItemId=92603178967&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "7749076910",
@@ -702,28 +735,8 @@
       "discountRate": 2,
       "salePrice": 21260,
       "originalPrice": 21900,
-      "soldRate": 86,
+      "soldRate": 87,
       "affiliateUrl": "https://www.coupang.com/vp/products/7749076910?itemId=20867977519&vendorItemId=87935311042&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "8574506645",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/1025_amir_coupang_oct_80k/07f7/e8d9099d762eba35d90c34e8f4252263aad56b85eb73e4df2426a23d94fc.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/8574506645?itemId=8483389965&vendorItemId=75770913139&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "락앤락 튼튼한 빨래건조대, 블랙",
-      "discountRate": 11,
-      "salePrice": 39900,
-      "originalPrice": 45000,
-      "soldRate": 38,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8574506645?itemId=8483389965&vendorItemId=75770913139&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "9323061814",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/105235034836015-3fd9e37d-07ea-4654-af71-d1c2f22c3af4.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/9323061814?itemId=21565887904&vendorItemId=88617858596&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "하기스 2024 네이처메이드 밤부 팬티형 기저귀 남여공용 점보형, 6단계, 58매",
-      "salePrice": 51900,
-      "soldRate": 36,
-      "affiliateUrl": "https://www.coupang.com/vp/products/9323061814?itemId=21565887904&vendorItemId=88617858596&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "7870430619",
@@ -733,50 +746,8 @@
       "discountRate": 37,
       "salePrice": 21900,
       "originalPrice": 34900,
-      "soldRate": 36,
+      "soldRate": 37,
       "affiliateUrl": "https://www.coupang.com/vp/products/7870430619?itemId=21498415612&vendorItemId=3066423354&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "8350665188",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1367551173188822-0e2c999a-e59b-4ad3-b01a-6ce8e8783a09.png",
-      "productUrl": "https://www.coupang.com/vp/products/8350665188?itemId=25036543908&vendorItemId=70420373476&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "프로쉬 알로에베라 액상 세탁세제 본품, 1.5L, 1개",
-      "discountRate": 31,
-      "salePrice": 14940,
-      "originalPrice": 21900,
-      "soldRate": 36,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8350665188?itemId=25036543908&vendorItemId=70420373476&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "6235621800",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/89d2/0559f366542167077d2e3f249075a58bb145b25482461a88d8d5d237e0e3.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/6235621800?itemId=12556226931&vendorItemId=79824529259&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "위드림 산리오캐릭터즈 웹툰그리기패드, 혼합색상, 1개",
-      "discountRate": 14,
-      "salePrice": 32320,
-      "originalPrice": 38000,
-      "soldRate": 38,
-      "affiliateUrl": "https://www.coupang.com/vp/products/6235621800?itemId=12556226931&vendorItemId=79824529259&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "8513797532",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/12/19/14/4/3d2e5bc8-4f45-47c8-964f-e586247a8ed9.png",
-      "productUrl": "https://www.coupang.com/vp/products/8513797532?itemId=24645911991&vendorItemId=91656622622&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "그린내일 생분해 싱크대 거름망 라이트, 100개입, 1개",
-      "discountRate": 44,
-      "salePrice": 10000,
-      "originalPrice": 18000,
-      "soldRate": 36,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8513797532?itemId=24645911991&vendorItemId=91656622622&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "7727909447",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/11/20/10/3/80a67eb4-02bd-4c3b-846a-0ea0ec7471d6.png",
-      "productUrl": "https://www.coupang.com/vp/products/7727909447?itemId=20758036209&vendorItemId=87828260076&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "파사바체 타임리스 골드림 하이볼잔 450ml, 4개",
-      "salePrice": 21500,
-      "soldRate": 35,
-      "affiliateUrl": "https://www.coupang.com/vp/products/7727909447?itemId=20758036209&vendorItemId=87828260076&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "8538499359",
@@ -790,6 +761,26 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/8538499359?itemId=24719060246&vendorItemId=91728329052&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
+      "productId": "9323061814",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/105235034836015-3fd9e37d-07ea-4654-af71-d1c2f22c3af4.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/9323061814?itemId=21565887904&vendorItemId=88617858596&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "하기스 2024 네이처메이드 밤부 팬티형 기저귀 남여공용 점보형, 6단계, 58매",
+      "salePrice": 51900,
+      "soldRate": 37,
+      "affiliateUrl": "https://www.coupang.com/vp/products/9323061814?itemId=21565887904&vendorItemId=88617858596&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "8513797532",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/12/19/14/4/3d2e5bc8-4f45-47c8-964f-e586247a8ed9.png",
+      "productUrl": "https://www.coupang.com/vp/products/8513797532?itemId=24645911991&vendorItemId=91656622622&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "그린내일 생분해 싱크대 거름망 라이트, 100개입, 1개",
+      "discountRate": 44,
+      "salePrice": 10000,
+      "originalPrice": 18000,
+      "soldRate": 36,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8513797532?itemId=24645911991&vendorItemId=91656622622&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
       "productId": "9402731819",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1751402202329897-e39b01a3-149b-42ca-b550-804efa8da35d.jpg",
       "productUrl": "https://www.coupang.com/vp/products/9402731819?itemId=21346128005&vendorItemId=85228767389&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
@@ -801,6 +792,37 @@
       "affiliateUrl": "https://www.coupang.com/vp/products/9402731819?itemId=21346128005&vendorItemId=85228767389&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
+      "productId": "8350665188",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/1367551173188822-0e2c999a-e59b-4ad3-b01a-6ce8e8783a09.png",
+      "productUrl": "https://www.coupang.com/vp/products/8350665188?itemId=25036543908&vendorItemId=70420373476&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "프로쉬 알로에베라 액상 세탁세제 본품, 1.5L, 1개",
+      "discountRate": 31,
+      "salePrice": 14940,
+      "originalPrice": 21900,
+      "soldRate": 36,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8350665188?itemId=25036543908&vendorItemId=70420373476&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "7727909447",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2023/11/20/10/3/80a67eb4-02bd-4c3b-846a-0ea0ec7471d6.png",
+      "productUrl": "https://www.coupang.com/vp/products/7727909447?itemId=20758036209&vendorItemId=87828260076&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "파사바체 타임리스 골드림 하이볼잔 450ml, 4개",
+      "salePrice": 21500,
+      "soldRate": 35,
+      "affiliateUrl": "https://www.coupang.com/vp/products/7727909447?itemId=20758036209&vendorItemId=87828260076&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "8205021216",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/bc18/955f8908377ba74cce951e642c7de39233c1de38edfaef7897571f4ae148.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/8205021216?itemId=23532442760&vendorItemId=90788386304&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "뉴트리포유 듀얼 이뮨 멀티 비타민 미네랄, 30회분, 1개",
+      "discountRate": 39,
+      "salePrice": 54900,
+      "originalPrice": 90000,
+      "soldRate": 35,
+      "affiliateUrl": "https://www.coupang.com/vp/products/8205021216?itemId=23532442760&vendorItemId=90788386304&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
       "productId": "16495803",
       "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/168150629532542-1323b5e4-d29b-4c6c-98f8-c85269249dad.jpg",
       "productUrl": "https://www.coupang.com/vp/products/16495803?itemId=20015983886&vendorItemId=3107213585&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
@@ -808,30 +830,8 @@
       "discountRate": 36,
       "salePrice": 12700,
       "originalPrice": 19900,
-      "soldRate": 34,
+      "soldRate": 35,
       "affiliateUrl": "https://www.coupang.com/vp/products/16495803?itemId=20015983886&vendorItemId=3107213585&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "9412152146",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/03/04/17/2/8d1307e4-ff7a-406c-b41a-c2fe19718888.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/9412152146?itemId=27967224073&vendorItemId=94925171375&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "에이지투웨니스 멜라 디펜스 기미 톤업 에센스 선크림 SPF50+ PA++++, 1개, 50ml",
-      "discountRate": 42,
-      "salePrice": 18360,
-      "originalPrice": 32000,
-      "soldRate": 33,
-      "affiliateUrl": "https://www.coupang.com/vp/products/9412152146?itemId=27967224073&vendorItemId=94925171375&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "160195555",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/71325980752583-b0f6039e-768e-435c-99bc-9770c3c26c84.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/160195555?itemId=459888411&vendorItemId=4613339846&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "나이키 볼러 농구공, BB9132-855, 1개",
-      "discountRate": 65,
-      "salePrice": 22900,
-      "originalPrice": 66100,
-      "soldRate": 33,
-      "affiliateUrl": "https://www.coupang.com/vp/products/160195555?itemId=459888411&vendorItemId=4613339846&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "6586372374",
@@ -852,8 +852,30 @@
       "discountRate": 47,
       "salePrice": 13250,
       "originalPrice": 25000,
-      "soldRate": 56,
+      "soldRate": 57,
       "affiliateUrl": "https://www.coupang.com/vp/products/8630097770?itemId=22816087114&vendorItemId=89850917844&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "160195555",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/71325980752583-b0f6039e-768e-435c-99bc-9770c3c26c84.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/160195555?itemId=459888411&vendorItemId=4613339846&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "나이키 볼러 농구공, BB9132-855, 1개",
+      "discountRate": 65,
+      "salePrice": 22900,
+      "originalPrice": 66100,
+      "soldRate": 33,
+      "affiliateUrl": "https://www.coupang.com/vp/products/160195555?itemId=459888411&vendorItemId=4613339846&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "9412152146",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2026/03/04/17/2/8d1307e4-ff7a-406c-b41a-c2fe19718888.jpg",
+      "productUrl": "https://www.coupang.com/vp/products/9412152146?itemId=27967224073&vendorItemId=94925171375&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "에이지투웨니스 멜라 디펜스 기미 톤업 에센스 선크림 SPF50+ PA++++, 1개, 50ml",
+      "discountRate": 42,
+      "salePrice": 18360,
+      "originalPrice": 32000,
+      "soldRate": 33,
+      "affiliateUrl": "https://www.coupang.com/vp/products/9412152146?itemId=27967224073&vendorItemId=94925171375&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "9200798187",
@@ -863,39 +885,8 @@
       "discountRate": 67,
       "salePrice": 13400,
       "originalPrice": 41000,
-      "soldRate": 79,
+      "soldRate": 80,
       "affiliateUrl": "https://www.coupang.com/vp/products/9200798187?itemId=27157315728&vendorItemId=94125082784&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "8205021216",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/vendor_inventory/bc18/955f8908377ba74cce951e642c7de39233c1de38edfaef7897571f4ae148.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/8205021216?itemId=23532442760&vendorItemId=90788386304&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "뉴트리포유 듀얼 이뮨 멀티 비타민 미네랄, 30회분, 1개",
-      "discountRate": 39,
-      "salePrice": 54900,
-      "originalPrice": 90000,
-      "soldRate": 35,
-      "affiliateUrl": "https://www.coupang.com/vp/products/8205021216?itemId=23532442760&vendorItemId=90788386304&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "7814755233",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2024/02/02/17/9/9a4ab40b-a58c-4785-828b-daa62bf8a40d.jpg",
-      "productUrl": "https://www.coupang.com/vp/products/7814755233?itemId=21207598388&vendorItemId=88562636197&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "HERA 헤라 에이지 어웨이 에스테틱 BX 크림, 50ml, 1개",
-      "discountRate": 15,
-      "salePrice": 110500,
-      "originalPrice": 130000,
-      "soldRate": 42,
-      "affiliateUrl": "https://www.coupang.com/vp/products/7814755233?itemId=21207598388&vendorItemId=88562636197&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
-    },
-    {
-      "productId": "7844819226",
-      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/06/09/9/7/792874fd-8a1d-4050-ab65-b56dc8031a43.png",
-      "productUrl": "https://www.coupang.com/vp/products/7844819226?itemId=25716945684&vendorItemId=92705792916&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
-      "productName": "그리스비 이탈리아 그리스비 초코 크림 필링, 24개, 30g",
-      "salePrice": 20900,
-      "soldRate": 32,
-      "affiliateUrl": "https://www.coupang.com/vp/products/7844819226?itemId=25716945684&vendorItemId=92705792916&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "7123695846",
@@ -907,6 +898,15 @@
       "originalPrice": 24900,
       "soldRate": 32,
       "affiliateUrl": "https://www.coupang.com/vp/products/7123695846?itemId=17842944507&vendorItemId=85006502710&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
+    },
+    {
+      "productId": "7844819226",
+      "productImage": "https://thumbnail.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/2025/06/09/9/7/792874fd-8a1d-4050-ab65-b56dc8031a43.png",
+      "productUrl": "https://www.coupang.com/vp/products/7844819226?itemId=25716945684&vendorItemId=92705792916&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237",
+      "productName": "그리스비 이탈리아 그리스비 초코 크림 필링, 24개, 30g",
+      "salePrice": 20900,
+      "soldRate": 32,
+      "affiliateUrl": "https://www.coupang.com/vp/products/7844819226?itemId=25716945684&vendorItemId=92705792916&sourceType=gm_crm_goldbox&subSourceType=gm_crm_gwsrtcut&omsPageId=121237&omsPageUrl=121237"
     },
     {
       "productId": "1449222342",
