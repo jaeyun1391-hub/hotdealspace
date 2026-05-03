@@ -9,6 +9,7 @@ type Product = {
   productPrice?: number;
   originalPrice?: number;
   discountRate?: number;
+  soldRate?: number;
   dealLabels?: string[];
   productImage: string;
   productUrl: string;
@@ -19,8 +20,9 @@ type Product = {
 
 type ApiResponse = {
   products: Product[];
-  source: "coupang" | "sample";
+  source: "coupang" | "sample" | "scraped";
   message?: string;
+  scrapedAt?: string;
 };
 
 const categories = [
@@ -216,7 +218,7 @@ export default function DealTabs() {
                 {keyword.trim() ? `"${keyword.trim()}" 검색 결과` : `${selectedCategoryName} 특가`}
               </p>
               <p className="mt-1 text-xs text-slate-500">
-                {source === "coupang"
+                {source === "coupang" || source === "scraped"
                   ? `${products.length}개 상품을 불러왔습니다`
                   : "API 키 입력 전 샘플 화면"}
               </p>
@@ -297,6 +299,19 @@ export default function DealTabs() {
                             {formatPrice(product.productPrice)}
                           </span>
                         </p>
+                        {product.soldRate ? (
+                          <div className="mt-2">
+                            <div className="h-1.5 overflow-hidden rounded-full bg-orange-100">
+                              <div
+                                className="h-full rounded-full bg-orange-400"
+                                style={{ width: `${Math.min(product.soldRate, 100)}%` }}
+                              />
+                            </div>
+                            <p className="mt-1 text-right text-[10px] font-bold text-orange-600">
+                              {product.soldRate}% 판매됨
+                            </p>
+                          </div>
+                        ) : null}
                       </div>
                     </div>
                   </a>

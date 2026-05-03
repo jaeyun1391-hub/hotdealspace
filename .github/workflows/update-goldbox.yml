@@ -1,0 +1,56 @@
+name: Update Coupang Goldbox
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 07:10 KST
+    - cron: "10 22 * * *"
+
+jobs:
+  update-goldbox:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    env:
+      COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
+      COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
+      COUPANG_SUB_ID: ${{ secrets.COUPANG_SUB_ID }}
+      COUPANG_SCRAPE_HEADLESS: "true"
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Scrape Goldbox
+        run: npm run scrape:goldbox
+
+      - name: Check scrape result
+        run: |
+          node -e "const fs=require('fs'); const data=JSON.parse(fs.readFileSync('data/goldbox-scrape.json','utf8')); if (!data.count || data.count < 1) { throw new Error('No Goldbox products scraped'); } console.log('Scraped products:', data.count);"
+
+      - name: Build
+        run: npm run build
+
+      - name: Link Vercel project
+        run: |
+          mkdir -p .vercel
+          echo '{"projectId":"prj_ihTAKHyUM37L3rkAyZbUd1zOU1Qh","orgId":"team_gC1grILaRVyjpWAmtH1m5SeO","projectName":"1-next-js-app-router-tailwind"}' > .vercel/project.json
+
+      - name: Deploy to Vercel
+        run: npx vercel --prod --yes --token="${{ secrets.VERCEL_TOKEN }}"
+
+      - name: Verify production
+        run: |
+          node -e "fetch('https://www.hotdealspace.com/api/coupang/products?view=category&categoryId=goldbox&limit=100&refresh='+Date.now()).then(r=>r.json()).then(data=>{ console.log({ source:data.source, count:data.products?.length }); if (data.source !== 'scraped' || !data.products?.length) throw new Error('Production verification failed'); })"

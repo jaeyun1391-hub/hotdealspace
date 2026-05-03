@@ -3,6 +3,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "scrape:goldbox": "node scripts/scrape-coupang-goldbox.mjs",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "playwright": "^1.59.1",
     "tailwindcss": "latest",
     "typescript": "latest"
   }
