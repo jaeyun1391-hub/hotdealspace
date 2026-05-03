@@ -35,6 +35,12 @@ jobs:
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
 
+      - name: Check required secrets
+        run: |
+          test -n "$COUPANG_ACCESS_KEY" || (echo "COUPANG_ACCESS_KEY is missing" && exit 1)
+          test -n "$COUPANG_SECRET_KEY" || (echo "COUPANG_SECRET_KEY is missing" && exit 1)
+          test -n "$COUPANG_SUB_ID" || (echo "COUPANG_SUB_ID is missing" && exit 1)
+
       - name: Scrape Goldbox
         run: xvfb-run --auto-servernum npm run scrape:goldbox
 
