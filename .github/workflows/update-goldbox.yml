@@ -8,8 +8,8 @@ on:
 
 jobs:
   update-deals:
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
+    runs-on: [self-hosted, Windows, X64]
+    timeout-minutes: 45
     permissions:
       contents: write
 
@@ -19,7 +19,7 @@ jobs:
       COUPANG_SUB_ID: ${{ secrets.COUPANG_SUB_ID }}
       COUPANG_SCRAPE_HEADLESS: "false"
       COUPANG_KEEP_PREVIOUS_ON_EMPTY: "true"
-      CHROME_PATH: "/usr/bin/google-chrome-stable"
+      CHROME_PATH: "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
 
     steps:
       - name: Checkout
@@ -28,32 +28,32 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
           cache: "npm"
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Chromium
-        run: npx playwright install --with-deps chromium
-
-      - name: Install Google Chrome
+      - name: Check Chrome
+        shell: powershell
         run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-          google-chrome-stable --version
+          if (!(Test-Path $env:CHROME_PATH)) {
+            throw "Chrome not found at $env:CHROME_PATH"
+          }
+          & $env:CHROME_PATH --version
 
       - name: Check required secrets
+        shell: powershell
         run: |
-          test -n "$COUPANG_ACCESS_KEY" || (echo "COUPANG_ACCESS_KEY is missing" && exit 1)
-          test -n "$COUPANG_SECRET_KEY" || (echo "COUPANG_SECRET_KEY is missing" && exit 1)
-          test -n "$COUPANG_SUB_ID" || (echo "COUPANG_SUB_ID is missing" && exit 1)
+          if (!$env:COUPANG_ACCESS_KEY) { throw "COUPANG_ACCESS_KEY is missing" }
+          if (!$env:COUPANG_SECRET_KEY) { throw "COUPANG_SECRET_KEY is missing" }
+          if (!$env:COUPANG_SUB_ID) { throw "COUPANG_SUB_ID is missing" }
 
       - name: Scrape Goldbox
-        run: xvfb-run --auto-servernum npm run scrape:goldbox
+        run: npm run scrape:goldbox
 
       - name: Scrape Seller Special
-        run: xvfb-run --auto-servernum npm run scrape:seller-special
+        run: npm run scrape:seller-special
 
       - name: Check scrape result
         run: |
@@ -63,9 +63,15 @@ jobs:
         run: npm run build
 
       - name: Commit updated deal data
+        shell: powershell
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "hotdealspace-runner"
+          git config user.email "actions@users.noreply.github.com"
           git add data/goldbox-scrape.json data/seller-special-scrape.json
-          git diff --cached --quiet && echo "No deal data changes" || git commit -m "Update Coupang deal data"
-          git push
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) {
+            Write-Host "No deal data changes"
+          } else {
+            git commit -m "Update Coupang deal data"
+            git push
+          }
