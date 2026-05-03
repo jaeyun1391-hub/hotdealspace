@@ -28,13 +28,12 @@ type ApiResponse = {
 };
 
 const categories = [
-  { id: "goldbox", name: "골드박스" },
-  { id: "seller", name: "판매자특가" },
-  { id: "seller_under20000", name: "2만원 이하" },
-  { id: "seller_under10000", name: "만원 이하" },
-  { id: "seller_discount70", name: "70% 이상" },
-  { id: "seller_discount50", name: "50% 이상" },
-  { id: "seller_popular", name: "인기 특가" },
+  { id: "current", name: "현재 특가 상품" },
+  { id: "current_under20000", name: "2만원 이하" },
+  { id: "current_under10000", name: "만원 이하" },
+  { id: "current_discount70", name: "70% 이상" },
+  { id: "current_discount50", name: "50% 이상" },
+  { id: "current_popular", name: "인기 특가" },
 ];
 
 const tabs = [

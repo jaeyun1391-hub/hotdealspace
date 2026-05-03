@@ -10,6 +10,8 @@ jobs:
   update-deals:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    permissions:
+      contents: write
 
     env:
       COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
@@ -46,14 +48,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Link Vercel project
+      - name: Commit updated deal data
         run: |
-          mkdir -p .vercel
-          echo '{"projectId":"prj_ihTAKHyUM37L3rkAyZbUd1zOU1Qh","orgId":"team_gC1grILaRVyjpWAmtH1m5SeO","projectName":"1-next-js-app-router-tailwind"}' > .vercel/project.json
-
-      - name: Deploy to Vercel
-        run: npx vercel --prod --yes --token="${{ secrets.VERCEL_TOKEN }}"
-
-      - name: Verify production
-        run: |
-          node -e "Promise.all([fetch('https://www.hotdealspace.com/api/coupang/products?view=category&categoryId=goldbox&limit=100&refresh='+Date.now()).then(r=>r.json()), fetch('https://www.hotdealspace.com/api/coupang/products?view=category&categoryId=seller&limit=100&refresh='+Date.now()).then(r=>r.json())]).then(([goldbox, seller])=>{ console.log({ goldbox: goldbox.products?.length, seller: seller.products?.length }); if (goldbox.source !== 'scraped' || !goldbox.products?.length) throw new Error('Goldbox verification failed'); if (seller.source !== 'scraped' || !seller.products?.length) throw new Error('Seller verification failed'); })"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/goldbox-scrape.json data/seller-special-scrape.json
+          git diff --cached --quiet && echo "No deal data changes" || git commit -m "Update Coupang deal data"
+          git push

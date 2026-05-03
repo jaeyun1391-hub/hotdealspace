@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { fetchCoupangProducts, sampleProducts } from "@/lib/coupang";
+import { getCurrentDeals, isCurrentDealFilter } from "@/lib/current-deals";
 import { getScrapedGoldboxProducts, isGoldboxFilter } from "@/lib/scraped-goldbox";
 import { getScrapedSellerSpecialProducts, isSellerSpecialFilter } from "@/lib/scraped-seller-special";
 
@@ -16,6 +17,17 @@ export async function GET(request: Request) {
 
   try {
     if (view === "category" && !keyword.trim()) {
+      if (isCurrentDealFilter(categoryId)) {
+        const currentDeals = getCurrentDeals(categoryId);
+
+        return NextResponse.json({
+          products: currentDeals.products,
+          source: "scraped",
+          scrapedAt: currentDeals.scrapedAt,
+          message: "",
+        });
+      }
+
       if (isGoldboxFilter(categoryId)) {
         const scrapedGoldbox = getScrapedGoldboxProducts();
 
