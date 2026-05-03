@@ -192,6 +192,30 @@ async function main() {
   const outputPath = process.argv[2] ? path.resolve(process.argv[2]) : DEFAULT_OUTPUT;
   const scrapedProducts = await scrapeGoldBox();
   const products = await createAffiliateLinks(scrapedProducts);
+
+  if (products.length === 0 && process.env.COUPANG_KEEP_PREVIOUS_ON_EMPTY === "true") {
+    try {
+      const previous = JSON.parse(await fs.readFile(outputPath, "utf8"));
+
+      if (previous.count > 0) {
+        console.log(
+          JSON.stringify(
+            {
+              count: previous.count,
+              preserved: true,
+              reason: "Empty scrape result. Previous Goldbox data was kept.",
+            },
+            null,
+            2,
+          ),
+        );
+        return;
+      }
+    } catch {
+      // No previous data exists, so write the empty result and let validation fail.
+    }
+  }
+
   const payload = {
     source: GOLD_BOX_URL,
     scrapedAt: new Date().toISOString(),
