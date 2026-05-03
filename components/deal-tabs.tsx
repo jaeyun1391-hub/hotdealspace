@@ -10,6 +10,8 @@ type Product = {
   originalPrice?: number;
   discountRate?: number;
   soldRate?: number;
+  reviewCount?: number;
+  deliveryText?: string;
   dealLabels?: string[];
   productImage: string;
   productUrl: string;
@@ -26,12 +28,13 @@ type ApiResponse = {
 };
 
 const categories = [
-  { id: "goldbox", name: "전체 특가" },
-  { id: "under20000", name: "2만원 이하" },
-  { id: "under10000", name: "만원 이하" },
-  { id: "discount60", name: "60% 이상" },
-  { id: "discount50", name: "50% 이상" },
-  { id: "popular", name: "인기 특가" },
+  { id: "goldbox", name: "골드박스" },
+  { id: "seller", name: "판매자특가" },
+  { id: "seller_under20000", name: "2만원 이하" },
+  { id: "seller_under10000", name: "만원 이하" },
+  { id: "seller_discount70", name: "70% 이상" },
+  { id: "seller_discount50", name: "50% 이상" },
+  { id: "seller_popular", name: "인기 특가" },
 ];
 
 const tabs = [
@@ -45,7 +48,16 @@ function formatPrice(price?: number) {
   if (!price) {
     return "가격 확인";
   }
+
   return `${price.toLocaleString("ko-KR")}원`;
+}
+
+function formatCount(count?: number) {
+  if (!count) {
+    return "";
+  }
+
+  return count.toLocaleString("ko-KR");
 }
 
 function getDiscountRate(product: Product) {
@@ -108,6 +120,7 @@ export default function DealTabs() {
       if (requestId !== requestIdRef.current) {
         return;
       }
+
       setProducts([]);
       setSource("sample");
       setMessage("상품을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.");
@@ -143,6 +156,7 @@ export default function DealTabs() {
       >
         {tabs.map((tab) => {
           const isActive = tab.id === activeTab;
+
           return (
             <button
               key={tab.id}
@@ -186,6 +200,7 @@ export default function DealTabs() {
             <div className="mt-2 flex gap-2 overflow-x-auto pb-1">
               {categories.map((category) => {
                 const isActive = category.id === selectedCategory;
+
                 return (
                   <button
                     key={category.id}
@@ -212,7 +227,7 @@ export default function DealTabs() {
               <p className="mt-1 text-xs text-slate-500">
                 {source === "coupang" || source === "scraped"
                   ? `${products.length}개 상품을 불러왔습니다`
-                  : "API 키 입력 전 샘플 화면"}
+                  : "API 설정 전 샘플 화면"}
               </p>
             </div>
           </div>
@@ -237,76 +252,86 @@ export default function DealTabs() {
 
                   return (
                     <a
-                    key={product.productId}
-                    href={product.productUrl}
-                    target="_blank"
-                    rel="nofollow sponsored noopener noreferrer"
-                    className="overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-slate-200"
-                  >
-                    <div className="aspect-square bg-slate-100">
-                      <img
-                        src={product.productImage}
-                        alt={product.productName}
-                        className="h-full w-full object-cover"
-                        loading="lazy"
-                      />
-                    </div>
-                    <div className="p-3">
-                      <div className="mb-2 flex min-h-5 flex-wrap gap-1">
-                        {product.dealLabels?.map((label) => (
-                          <span
-                            key={label}
-                            className="rounded bg-red-50 px-1.5 py-1 text-[10px] font-bold text-red-700"
-                          >
-                            {label}
-                          </span>
-                        ))}
-                        {product.isRocket ? (
-                          <span className="rounded bg-blue-50 px-1.5 py-1 text-[10px] font-bold text-blue-700">
-                            로켓
-                          </span>
-                        ) : null}
-                        {product.isFreeShipping ? (
-                          <span className="rounded bg-emerald-50 px-1.5 py-1 text-[10px] font-bold text-emerald-700">
-                            무료배송
-                          </span>
-                        ) : null}
+                      key={product.productId}
+                      href={product.productUrl}
+                      target="_blank"
+                      rel="nofollow sponsored noopener noreferrer"
+                      className="overflow-hidden rounded-lg bg-white shadow-sm ring-1 ring-slate-200"
+                    >
+                      <div className="aspect-square bg-slate-100">
+                        <img
+                          src={product.productImage}
+                          alt={product.productName}
+                          className="h-full w-full object-cover"
+                          loading="lazy"
+                        />
                       </div>
-                      <h2 className="line-clamp-2 min-h-10 text-xs leading-5 text-slate-800">
-                        {product.productName}
-                      </h2>
-                      <div className="mt-3 text-right">
-                        {hasDiscount ? (
-                          <p className="text-[11px] text-slate-400 line-through">
-                            정가 {formatPrice(product.originalPrice)}
-                          </p>
-                        ) : (
-                          <p className="text-[11px] font-medium text-slate-400">현재 판매가</p>
-                        )}
-                        <p className="mt-0.5 flex items-baseline justify-end gap-1.5">
-                          {hasDiscount ? (
-                            <span className="text-sm font-extrabold text-red-600">{discountRate}%</span>
+                      <div className="p-3">
+                        <div className="mb-2 flex min-h-5 flex-wrap gap-1">
+                          {product.dealLabels?.map((label) => (
+                            <span
+                              key={label}
+                              className="rounded bg-red-50 px-1.5 py-1 text-[10px] font-bold text-red-700"
+                            >
+                              {label}
+                            </span>
+                          ))}
+                          {product.isRocket ? (
+                            <span className="rounded bg-blue-50 px-1.5 py-1 text-[10px] font-bold text-blue-700">
+                              로켓
+                            </span>
                           ) : null}
-                          <span className="text-sm font-extrabold text-red-600">
-                            {formatPrice(product.productPrice)}
-                          </span>
-                        </p>
-                        {product.soldRate ? (
-                          <div className="mt-2">
-                            <div className="h-1.5 overflow-hidden rounded-full bg-orange-100">
-                              <div
-                                className="h-full rounded-full bg-orange-400"
-                                style={{ width: `${Math.min(product.soldRate, 100)}%` }}
-                              />
-                            </div>
-                            <p className="mt-1 text-right text-[10px] font-bold text-orange-600">
-                              {product.soldRate}% 판매됨
+                          {product.isFreeShipping ? (
+                            <span className="rounded bg-emerald-50 px-1.5 py-1 text-[10px] font-bold text-emerald-700">
+                              무료배송
+                            </span>
+                          ) : null}
+                        </div>
+                        <h2 className="line-clamp-2 min-h-10 text-xs leading-5 text-slate-800">
+                          {product.productName}
+                        </h2>
+                        <div className="mt-3 text-right">
+                          {hasDiscount ? (
+                            <p className="text-[11px] text-slate-400 line-through">
+                              정가 {formatPrice(product.originalPrice)}
                             </p>
-                          </div>
-                        ) : null}
+                          ) : (
+                            <p className="text-[11px] font-medium text-slate-400">현재 판매가</p>
+                          )}
+                          <p className="mt-0.5 flex items-baseline justify-end gap-1.5">
+                            {hasDiscount ? (
+                              <span className="text-sm font-extrabold text-red-600">{discountRate}%</span>
+                            ) : null}
+                            <span className="text-sm font-extrabold text-red-600">
+                              {formatPrice(product.productPrice)}
+                            </span>
+                          </p>
+                          {product.reviewCount ? (
+                            <p className="mt-1 text-[10px] font-bold text-slate-500">
+                              리뷰 {formatCount(product.reviewCount)}개
+                            </p>
+                          ) : null}
+                          {product.deliveryText ? (
+                            <p className="mt-1 truncate text-[10px] font-bold text-blue-600">
+                              {product.deliveryText}
+                            </p>
+                          ) : null}
+                          {product.soldRate ? (
+                            <div className="mt-2">
+                              <div className="h-1.5 overflow-hidden rounded-full bg-orange-100">
+                                <div
+                                  className="h-full rounded-full bg-orange-400"
+                                  style={{ width: `${Math.min(product.soldRate, 100)}%` }}
+                                />
+                              </div>
+                              <p className="mt-1 text-right text-[10px] font-bold text-orange-600">
+                                {product.soldRate}% 판매됨
+                              </p>
+                            </div>
+                          ) : null}
+                        </div>
                       </div>
-                    </div>
-                  </a>
+                    </a>
                   );
                 })}
           </div>

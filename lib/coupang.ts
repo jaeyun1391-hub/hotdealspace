@@ -7,6 +7,8 @@ export type CoupangProduct = {
   originalPrice?: number;
   discountRate?: number;
   soldRate?: number;
+  reviewCount?: number;
+  deliveryText?: string;
   timeRemaining?: string;
   dealScore?: number;
   dealLabels?: string[];

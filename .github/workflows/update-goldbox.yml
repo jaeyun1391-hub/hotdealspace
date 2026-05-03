@@ -1,4 +1,4 @@
-name: Update Coupang Goldbox
+name: Update Coupang Deals
 
 on:
   workflow_dispatch:
@@ -7,15 +7,15 @@ on:
     - cron: "10 22 * * *"
 
 jobs:
-  update-goldbox:
+  update-deals:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
 
     env:
       COUPANG_ACCESS_KEY: ${{ secrets.COUPANG_ACCESS_KEY }}
       COUPANG_SECRET_KEY: ${{ secrets.COUPANG_SECRET_KEY }}
       COUPANG_SUB_ID: ${{ secrets.COUPANG_SUB_ID }}
-      COUPANG_SCRAPE_HEADLESS: "true"
+      COUPANG_SCRAPE_HEADLESS: "false"
 
     steps:
       - name: Checkout
@@ -34,11 +34,14 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: Scrape Goldbox
-        run: npm run scrape:goldbox
+        run: xvfb-run --auto-servernum npm run scrape:goldbox
+
+      - name: Scrape Seller Special
+        run: xvfb-run --auto-servernum npm run scrape:seller-special
 
       - name: Check scrape result
         run: |
-          node -e "const fs=require('fs'); const data=JSON.parse(fs.readFileSync('data/goldbox-scrape.json','utf8')); if (!data.count || data.count < 1) { throw new Error('No Goldbox products scraped'); } console.log('Scraped products:', data.count);"
+          node -e "const fs=require('fs'); const goldbox=JSON.parse(fs.readFileSync('data/goldbox-scrape.json','utf8')); const seller=JSON.parse(fs.readFileSync('data/seller-special-scrape.json','utf8')); if (!goldbox.count || goldbox.count < 1) { throw new Error('No Goldbox products scraped'); } if (!seller.count || seller.count < 1) { throw new Error('No Seller Special products scraped'); } console.log({ goldbox: goldbox.count, seller: seller.count });"
 
       - name: Build
         run: npm run build
@@ -53,4 +56,4 @@ jobs:
 
       - name: Verify production
         run: |
-          node -e "fetch('https://www.hotdealspace.com/api/coupang/products?view=category&categoryId=goldbox&limit=100&refresh='+Date.now()).then(r=>r.json()).then(data=>{ console.log({ source:data.source, count:data.products?.length }); if (data.source !== 'scraped' || !data.products?.length) throw new Error('Production verification failed'); })"
+          node -e "Promise.all([fetch('https://www.hotdealspace.com/api/coupang/products?view=category&categoryId=goldbox&limit=100&refresh='+Date.now()).then(r=>r.json()), fetch('https://www.hotdealspace.com/api/coupang/products?view=category&categoryId=seller&limit=100&refresh='+Date.now()).then(r=>r.json())]).then(([goldbox, seller])=>{ console.log({ goldbox: goldbox.products?.length, seller: seller.products?.length }); if (goldbox.source !== 'scraped' || !goldbox.products?.length) throw new Error('Goldbox verification failed'); if (seller.source !== 'scraped' || !seller.products?.length) throw new Error('Seller verification failed'); })"
