@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "핫딜우주 수집기",
+  "version": "0.1.0",
+  "description": "쿠팡 특가 상품을 수집해서 핫딜우주 사이트로 전송합니다.",
+  "permissions": ["activeTab", "scripting", "storage", "tabs"],
+  "host_permissions": [
+    "https://www.coupang.com/*",
+    "https://pages.coupang.com/*",
+    "https://www.hotdealspace.com/*",
+    "http://localhost:3000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "핫딜우주 수집기"
+  }
+}
