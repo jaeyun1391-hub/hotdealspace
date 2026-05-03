@@ -43,6 +43,30 @@ const currentFilterNames: Record<string, string> = {
 };
 
 async function fetchRemoteData(path: string, fallback: ScrapedData) {
+  const githubHeaders: HeadersInit = {
+    Accept: "application/vnd.github.raw",
+    "X-GitHub-Api-Version": "2022-11-28",
+  };
+
+  if (process.env.GITHUB_DATA_TOKEN) {
+    githubHeaders.Authorization = `Bearer ${process.env.GITHUB_DATA_TOKEN}`;
+  }
+
+  try {
+    const response = await fetch(`https://api.github.com/repos/${REPOSITORY}/contents/${path}?ref=${BRANCH}`, {
+      headers: githubHeaders,
+      cache: "no-store",
+      next: { revalidate: 0 },
+    });
+
+    if (response.ok) {
+      const text = await response.text();
+      return JSON.parse(text) as ScrapedData;
+    }
+  } catch {
+    // Fall back to the public raw URL below.
+  }
+
   try {
     const response = await fetch(`https://raw.githubusercontent.com/${REPOSITORY}/${BRANCH}/${path}?t=${Date.now()}`, {
       cache: "no-store",

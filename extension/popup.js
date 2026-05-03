@@ -196,6 +196,43 @@ async function scrapeCurrentTab() {
   setStatus(`${lastScrape.source === "goldbox" ? "골드박스" : "판매자특가"} ${lastScrape.products.length}개 수집 완료`);
 }
 
+function getCategoryId(source) {
+  return source === "goldbox" ? "goldbox" : "seller";
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function verifySiteUpdate(siteUrl, source, expectedCount) {
+  const baseUrl = siteUrl.replace(/\/$/, "");
+  const categoryId = getCategoryId(source);
+
+  for (let attempt = 1; attempt <= 6; attempt += 1) {
+    const response = await fetch(
+      `${baseUrl}/api/coupang/products?view=category&categoryId=${categoryId}&refresh=${Date.now()}`,
+      { cache: "no-store" },
+    );
+
+    if (response.ok) {
+      const data = await response.json();
+      const visibleCount = data.products?.length || 0;
+
+      if (visibleCount >= expectedCount || attempt === 6) {
+        return {
+          ok: visibleCount > 0,
+          visibleCount,
+          scrapedAt: data.scrapedAt,
+        };
+      }
+    }
+
+    await sleep(1500);
+  }
+
+  return { ok: false, visibleCount: 0 };
+}
+
 async function sendProducts() {
   const settings = await chrome.storage.local.get(["siteUrl", "adminToken", "lastScrape"]);
   const scrape = lastScrape || settings.lastScrape;
@@ -226,7 +263,25 @@ async function sendProducts() {
     return;
   }
 
-  setStatus(`전송 완료: ${data.count}개. Vercel 배포까지 잠시 기다리면 됩니다.`);
+  setStatus(`전송 완료: ${data.count}개. 사이트 반영 확인 중입니다.`);
+
+  try {
+    const verification = await verifySiteUpdate(settings.siteUrl, scrape.source, data.count);
+
+    if (verification.ok && verification.visibleCount >= data.count) {
+      setStatus(`전송 완료: ${data.count}개. 사이트 반영 확인: ${verification.visibleCount}개.`);
+      return;
+    }
+
+    if (verification.ok) {
+      setStatus(`전송 완료: ${data.count}개. 사이트에는 현재 ${verification.visibleCount}개가 보입니다. 잠시 후 다시 확인해 주세요.`);
+      return;
+    }
+
+    setStatus(`전송 완료: ${data.count}개. 사이트 확인은 잠시 후 새로고침해서 확인해 주세요.`);
+  } catch {
+    setStatus(`전송 완료: ${data.count}개. 사이트 확인은 잠시 후 새로고침해서 확인해 주세요.`);
+  }
 }
 
 document.querySelector("#saveSettings").addEventListener("click", saveSettings);
